@@ -18,6 +18,15 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "VSCode",
+	"ui",
+        "Themes"
+    ],
+    "extensionKind": [
+	"ui",
+	"workspace"
+    ],
     "contributes": {
         "themes": [
             {
