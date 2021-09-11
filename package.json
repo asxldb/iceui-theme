@@ -1,0 +1,30 @@
+{
+    "name": "iceui-theme",
+    "displayName": "iceui-theme",
+    "description": "iceui专用主题",
+    "version": "0.0.1",
+    "icon": "logo.png",
+    "homepage": "https://www.iceui.cn",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/asxldb/iceui-theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/asxldb/iceui-theme/issues"
+	},
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ICEUI",
+                "uiTheme": "vs",
+                "path": "./themes/iceui-color-theme.json"
+            }
+        ]
+    }
+}
